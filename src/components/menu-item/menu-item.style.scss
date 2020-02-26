@@ -1,0 +1,31 @@
+.menu {
+  width: 40vw;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 50px;
+  font-size: 1em;
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+
+    &:hover {
+      color: #a20607;
+      border-bottom: 2px solid #a20607;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .menu {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .menu {
+    width: 70%;
+    font-size: 0.7em;
+  }
+}
