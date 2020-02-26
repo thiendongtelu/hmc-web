@@ -14,7 +14,7 @@ const Header = () => {
             <div className='info'>
                 <HeaderInfo type="phone" theme="filled" title='Phone' sub='0375.800.833' border='true' />
                 <HeaderInfo type="mail" theme="filled" title='Email' sub='hustmediaclub@gmail.com' border='true'/>
-                <HeaderInfo type="down-square" theme="filled" title='Address' sub='No.1 Dai Co Viet street'/>
+                <HeaderInfo type="environment" theme="filled" title='Address' sub='No.1 Dai Co Viet street'/>
             </div>
         </div>
     );

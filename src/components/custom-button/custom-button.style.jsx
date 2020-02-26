@@ -4,12 +4,14 @@ const buttonStyles = css`
   background-color: #A20607;
   color: white;
   border: none;
+  cursor: pointer;
 
-  &:hover {
+  &:hover, &:active {
     background-color: #AF0606;
     color: white;
     border: 1px solid #A20607;
   }
+
 `;
 
 const invertedButtonStyles = css`
@@ -43,7 +45,6 @@ const getButtonStyles = props => {
 };
 
 export const CustomButtonContainer = styled.button`
-  font-family: "Roboto" !important;
   min-width: 165px;
   width: auto;
   height: 50px;
@@ -52,7 +53,6 @@ export const CustomButtonContainer = styled.button`
   padding: 0 35px 0 35px;
   font-size: 15px;
   text-transform: uppercase;
-  font-family: "Open Sans Condensed";
   font-weight: bolder;
   border: none;
   cursor: pointer;

@@ -1,32 +1,51 @@
 .carousel-container {
-    position: relative;
-    max-height: 90vh;
+  position: relative;
+  max-height: 700px;
+  overflow: hidden;
+  background-color: black;
+
+  img {
+    width: 100vw;
+    opacity: 0.6;
+  }
+
+  .carousel-inner {
+    position: absolute;
+    line-height: 20px;
+    top: 30%;
+    left: 10%;
+
+    .title {
+      font-size: 8em;
+      color: white;
+    }
+
+    .sub {
+      font-size: 2em;
+      color: white;
+    }
+  }
+
+  .button {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .carousel-container {
+    max-height: 253px;
     overflow: hidden;
-    
-    img {
-        width: 100vw;
+
+    .carousel-inner {
+      .title {
+        font-size: 5em;
+      }
+
+      .sub {
+        font-size: 1.5em;
+      }
     }
-
-    .carousel-inner{
-        position: absolute;
-        line-height: 20px;
-        top: 30%;
-        left: 10%;
-
-        .title{
-            font-size: 8em;
-            color: white;
-        }
-
-        .sub{
-            font-size: 2em;
-            color: white;
-        }
-    }
-
-    .button{
-        position: absolute;
-        top: 50%;
-        left: 10%;
-    }
+  }
 }
