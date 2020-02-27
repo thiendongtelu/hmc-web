@@ -2,9 +2,9 @@ import React from "react";
 
 import CardItem from "../../components/card-item/card-item.component";
 
-import card1 from "../../assets/image/card1.jpg";
-import card2 from "../../assets/image/card2.jpg";
-import card3 from "../../assets/image/card3.jpg";
+import card1 from "../../assets/image/card/card1.jpg";
+import card2 from "../../assets/image/card/card2.jpg";
+import card3 from "../../assets/image/card/card3.jpg";
 
 import "./card-container.style.scss";
 

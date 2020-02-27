@@ -1,0 +1,56 @@
+.project-card-container {
+  margin: 20px;
+  width: 27%;
+  height: 310px;
+  overflow: hidden;
+  background-color: #a20607;
+  color: white;
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px #550207;
+  cursor: pointer;
+
+  .image {
+    height: 265px;
+    overflow: hidden;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .project-name {
+    margin: 5px auto;
+  }
+}
+
+@media only screen and(max-width: 1300px){
+    .project-card-container{
+        height: 300px;
+        width: 40%;
+    }
+}
+
+@media only screen and(max-width: 950px){
+    .project-card-container{
+        height: 300px;
+        width: 60%;
+    }
+}
+
+@media only screen and(max-width: 650px){
+  .project-card-container{
+    height: 250px;
+    width: 70%;
+}
+}
+
+@media only screen and (max-width:375px){
+    .project-card-container{
+        height: 200px;
+        width: 70%;
+    }
+}
