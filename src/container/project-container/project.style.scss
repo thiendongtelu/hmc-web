@@ -1,9 +1,9 @@
 .project-container {
-  position: absolute;
-  top: 150%;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 50px;
 
 
   h2 {
