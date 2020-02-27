@@ -12,7 +12,7 @@ import './carousel.style.scss';
 const CarouselContainer = () => {
   return (
     <div className="carousel">
-      <Carousel autoplay effect="fade">
+      <Carousel autoplay effect="fade" dotPosition='top'>
         <CarouselItem
           bg={carouselFirst}
           title="Slide 2"

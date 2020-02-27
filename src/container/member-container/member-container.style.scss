@@ -1,0 +1,82 @@
+.member-background {
+  position: absolute;
+  background-color: #a0a0a0;
+  top: 270%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  justify-content: center;
+
+  h2 {
+    font-size: 2.5em;
+    border-bottom: 3px solid #a20607;
+  }
+
+  .member-container::-webkit-scrollbar {
+    display: none;
+  }
+  .member-container {
+    width: 90%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -ms-overflow-style: none;
+  }
+
+  .arrow {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    font-size: 3em;
+    color: #a20607;
+
+    .left-arrow,
+    .right-arrow {
+      cursor: pointer;
+    }
+  }
+}
+
+@media only screen and(max-width: 1300px) {
+  .member-background {
+    top: 310%;
+  }
+}
+
+@media only screen and(max-width: 950px) {
+  .member-background {
+    top: 410%;
+    height: 350px;
+
+    h2 {
+      font-size: 2em;
+    }
+  }
+}
+
+@media only screen and(max-width: 900px) {
+  .member-background {
+    top: 256%;
+  }
+}
+
+@media only screen and(max-width: 800px) {
+  .member-background {
+    top: 320%;
+  }
+}
+
+@media only screen and(max-width: 650px) {
+  .member-background {
+    top: 290%;
+  }
+}
+
+@media only screen and(max-width: 375px) {
+  .member-background {
+    top: 255%;
+  }
+}
