@@ -5,11 +5,18 @@
     color: white;
     display: flex;
     justify-content: space-around;
+    align-items: flex-start;
     padding-top: 50px;
     line-height: 30px;
     
     .about-us{
-        width: 30%;
+        width: 50%;
+        text-align: start;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: column;
     }
 
     h3{
@@ -26,5 +33,11 @@
 @media only screen and (max-width: 1300px){
     .footer {
         font-size: 0.9em;
+    }
+}
+
+@media only screen and (max-width: 670px){
+    .footer{
+        line-height: 15px;
     }
 }

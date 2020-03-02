@@ -6,6 +6,7 @@ import * as ROUTES from './constants/routes';
 import Header from './components/header/header.component';
 import Menu from './components/menu-item/menu-item.component';
 import HomePage from './pages/home/home.component';
+import ContactPage from './pages/contact/contact.component';
 import Footer from './components/footer/footer.component';
 
 import './App.scss';
@@ -17,7 +18,8 @@ function App() {
         <Header />
         <Menu />
 
-        <Route exact path={ROUTES.HOME} component={HomePage}/>
+        <Route exact path={ROUTES.HOME} component={HomePage} />
+        <Route path={ROUTES.CONTACT} component={ContactPage} />
 
         <Footer />
       </Router>
